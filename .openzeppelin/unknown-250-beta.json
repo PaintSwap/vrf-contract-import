@@ -1,0 +1,525 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x58E9fd2Fae18c861B9F564200510A88106C05756",
+      "txHash": "0x2d48687c74b540ef6d3acd91af9a0aee3fc5c97248856690397467ff9115e6ae",
+      "kind": "uups"
+    },
+    {
+      "address": "0x082480aAAF1ac5bb0Db2c241eF8b4230Da85E191",
+      "txHash": "0x1b14e8e7b06cb32efec285e6e5c73945096d89b7299a070541f5836d90d04b65",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "6c2978981845fb3d6a7c9d0082b9e3c6dd2fdde0594cb6855942f36cce7f0569": {
+      "address": "0xe15070Cb4B860249e7D7D4859B0AC5f76B0f3B6B",
+      "txHash": "0xd52ed734586910652461d639ba2cdace90cf03d6e72fe87f109a45bfaa685751",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "consumers",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "SamWitchVRF",
+            "src": "@samwitch\\vrf\\contracts\\SamWitchVRF.sol:16"
+          },
+          {
+            "label": "oracles",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "SamWitchVRF",
+            "src": "@samwitch\\vrf\\contracts\\SamWitchVRF.sol:17"
+          },
+          {
+            "label": "requestCommitments",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_bytes32,t_bytes32)",
+            "contract": "SamWitchVRF",
+            "src": "@samwitch\\vrf\\contracts\\SamWitchVRF.sol:18"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)700_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)650_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "d85d02a4067cd239f407db71cd60c8c809c5f33c3d8789611b0e3f145813e8a9": {
+      "address": "0x7D6AdB6C7756736F33f43F4682BdfEB0fB81b91c",
+      "txHash": "0x3318c6ba1bfe0e7dd256c9048b447a25138f875cfb29c60253f7a3724b2cd90c",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "nft",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IERC1155)5505",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:41"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IBrushToken)11833",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:44"
+          },
+          {
+            "label": "devAddr",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:47"
+          },
+          {
+            "label": "devFee",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_uint16",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:48"
+          },
+          {
+            "label": "burntFee",
+            "offset": 22,
+            "slot": "2",
+            "type": "t_uint8",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:49"
+          },
+          {
+            "label": "royaltyFee",
+            "offset": 23,
+            "slot": "2",
+            "type": "t_uint16",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:50"
+          },
+          {
+            "label": "maxOrdersPerPrice",
+            "offset": 25,
+            "slot": "2",
+            "type": "t_uint16",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:51"
+          },
+          {
+            "label": "nextOrderId",
+            "offset": 27,
+            "slot": "2",
+            "type": "t_uint40",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:52"
+          },
+          {
+            "label": "royaltyRecipient",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:55"
+          },
+          {
+            "label": "tokenIdInfo",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(TokenIdInfo)11849_storage)",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:58"
+          },
+          {
+            "label": "asks",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_mapping(t_uint256,t_struct(Tree)6452_storage)",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:59"
+          },
+          {
+            "label": "bids",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_mapping(t_uint256,t_struct(Tree)6452_storage)",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:60"
+          },
+          {
+            "label": "asksAtPrice",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_array(t_bytes32)dyn_storage))",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:62"
+          },
+          {
+            "label": "bidsAtPrice",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_uint256,t_mapping(t_uint256,t_array(t_bytes32)dyn_storage))",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:64"
+          },
+          {
+            "label": "amountClaimableForTokenId",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_uint256,t_array(t_uint80)1099511627776_storage)",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:66"
+          },
+          {
+            "label": "tokenClaimable",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_array(t_struct(ClaimableTokenInfo)11872_storage)1099511627776_storage",
+            "contract": "SamWitchOrderBook",
+            "src": "@samwitch\\erc1155-orderbook\\contracts\\SamWitchOrderBook.sol:68"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)700_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)650_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(ClaimableTokenInfo)11872_storage)1099511627776_storage": {
+            "label": "struct ISamWitchOrderBook.ClaimableTokenInfo[1099511627776]",
+            "numberOfBytes": "35184372088832"
+          },
+          "t_array(t_uint80)1099511627776_storage": {
+            "label": "uint80[1099511627776]",
+            "numberOfBytes": "11728124029632"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IBrushToken)11833": {
+            "label": "contract IBrushToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC1155)5505": {
+            "label": "contract IERC1155",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_uint256,t_array(t_bytes32)dyn_storage)": {
+            "label": "mapping(uint256 => bytes32[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_uint80)1099511627776_storage)": {
+            "label": "mapping(uint256 => uint80[1099511627776])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint256,t_array(t_bytes32)dyn_storage))": {
+            "label": "mapping(uint256 => mapping(uint256 => bytes32[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(TokenIdInfo)11849_storage)": {
+            "label": "mapping(uint256 => struct ISamWitchOrderBook.TokenIdInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(Tree)6452_storage)": {
+            "label": "mapping(uint256 => struct BokkyPooBahsRedBlackTreeLibrary.Tree)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint72,t_struct(Node)6444_storage)": {
+            "label": "mapping(uint72 => struct BokkyPooBahsRedBlackTreeLibrary.Node)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ClaimableTokenInfo)11872_storage": {
+            "label": "struct ISamWitchOrderBook.ClaimableTokenInfo",
+            "members": [
+              {
+                "label": "maker",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint80",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(Node)6444_storage": {
+            "label": "struct BokkyPooBahsRedBlackTreeLibrary.Node",
+            "members": [
+              {
+                "label": "parent",
+                "type": "t_uint72",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "left",
+                "type": "t_uint72",
+                "offset": 9,
+                "slot": "0"
+              },
+              {
+                "label": "right",
+                "type": "t_uint72",
+                "offset": 18,
+                "slot": "0"
+              },
+              {
+                "label": "tombstoneOffset",
+                "type": "t_uint32",
+                "offset": 27,
+                "slot": "0"
+              },
+              {
+                "label": "red",
+                "type": "t_bool",
+                "offset": 31,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(TokenIdInfo)11849_storage": {
+            "label": "struct ISamWitchOrderBook.TokenIdInfo",
+            "members": [
+              {
+                "label": "tick",
+                "type": "t_uint128",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "minQuantity",
+                "type": "t_uint128",
+                "offset": 16,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(Tree)6452_storage": {
+            "label": "struct BokkyPooBahsRedBlackTreeLibrary.Tree",
+            "members": [
+              {
+                "label": "root",
+                "type": "t_uint72",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nodes",
+                "type": "t_mapping(t_uint72,t_struct(Node)6444_storage)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint128": {
+            "label": "uint128",
+            "numberOfBytes": "16"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint32": {
+            "label": "uint32",
+            "numberOfBytes": "4"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint72": {
+            "label": "uint72",
+            "numberOfBytes": "9"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint80": {
+            "label": "uint80",
+            "numberOfBytes": "10"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
