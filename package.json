@@ -22,7 +22,7 @@
     "@openzeppelin/contracts-upgradeable": "^5.0.1",
     "@openzeppelin/hardhat-upgrades": "^3.0.3",
     "@paintswap/estfor-definitions": "^1.0.134",
-    "@samwitch/erc1155-orderbook": "^0.0.2",
+    "@samwitch/erc1155-orderbook": "^0.0.3",
     "@samwitch/vrf": "^0.0.2",
     "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",

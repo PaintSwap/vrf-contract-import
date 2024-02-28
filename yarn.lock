@@ -891,10 +891,10 @@
   resolved "https://registry.yarnpkg.com/@prettier/sync/-/sync-0.3.0.tgz#91f2cfc23490a21586d1cf89c6f72157c000ca1e"
   integrity sha512-3dcmCyAxIcxy036h1I7MQU/uEEBq8oLwf1CE3xeze+MPlgkdlb/+w6rGR/1dhp6Hqi17fRS6nvwnOzkESxEkOw==
 
-"@samwitch/erc1155-orderbook@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@samwitch/erc1155-orderbook/-/erc1155-orderbook-0.0.2.tgz#9f6e04f71a6e91998f9f2fb402ec3457668dfecb"
-  integrity sha512-KSFkZvgFN3QDV/0cGmH3efiTy5+ShvdzvlqVHk7nw7Xqgoy863pEJbBT4ddd5DEoqjhRh/4AWHO6RvT02/UNmg==
+"@samwitch/erc1155-orderbook@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@samwitch/erc1155-orderbook/-/erc1155-orderbook-0.0.3.tgz#6e5b5458cdd281c8cb4ceecab58d8d20390e74b9"
+  integrity sha512-oxxlwKrWFZ9uNyPIMLEaWI1Ed8QFZnSGd4vzH0a0ZP1Su/AO0kTlFBdx8Jx2plLgpKE7BZ57+IFSSh/hkrjI9A==
 
 "@samwitch/vrf@^0.0.2":
   version "0.0.2"
