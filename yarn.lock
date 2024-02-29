@@ -896,10 +896,10 @@
   resolved "https://registry.yarnpkg.com/@samwitch/erc1155-orderbook/-/erc1155-orderbook-0.0.3.tgz#6e5b5458cdd281c8cb4ceecab58d8d20390e74b9"
   integrity sha512-oxxlwKrWFZ9uNyPIMLEaWI1Ed8QFZnSGd4vzH0a0ZP1Su/AO0kTlFBdx8Jx2plLgpKE7BZ57+IFSSh/hkrjI9A==
 
-"@samwitch/vrf@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@samwitch/vrf/-/vrf-0.0.2.tgz#a1bb48970f9efb1da8f5d3801809d7c3b5e31035"
-  integrity sha512-fauxR5kAOjpjqi+cThdKEoz6hoX8voluRuplb5EPgEfgCf2GkhzPbObRSmW9kJhrbdzQTwepfD2JgUM7y+ToUg==
+"@samwitch/vrf@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@samwitch/vrf/-/vrf-0.0.3.tgz#0d679576e32ffa71fbbb9e3bbd6fd07631e67f6e"
+  integrity sha512-SKtJDsRGNkVMuXFghbxnVbxF7n/eDEf79Y+BOLwRRUj/MqNFu8+V+asljVJFmOn96OJkV6NUL/LqItzjFwUayg==
 
 "@scure/base@^1.1.1", "@scure/base@~1.1.0", "@scure/base@~1.1.4":
   version "1.1.5"
