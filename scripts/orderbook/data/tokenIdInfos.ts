@@ -1572,7 +1572,7 @@ export const allOrderBookTokenIdInfos: TokenIdInfo[] = [
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
-  /*  {
+  {
     tokenId: EstforConstants.ORICHALCUM_HELMET_1,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
@@ -2071,5 +2071,5 @@ export const allOrderBookTokenIdInfos: TokenIdInfo[] = [
     tokenId: EstforConstants.SCORCHING_BOOTS_5,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
-  }, */
+  },
 ];
