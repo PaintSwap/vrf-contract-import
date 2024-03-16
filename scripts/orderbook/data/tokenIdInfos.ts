@@ -2072,4 +2072,104 @@ export const allOrderBookTokenIdInfos: TokenIdInfo[] = [
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_HELMET,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_ARMOR,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_TASSETS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_GAUNTLETS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_BOOTS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_SHIELD,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_DRAGONSTONE_AMULET,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_MASTER_HAT,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_MASTER_BODY,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_MASTER_TROUSERS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_MASTER_BRACERS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_MASTER_BOOTS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_ORICHALCUM_SWORD,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_DRAGONSTONE_STAFF,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_GODLY_BOW,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_SCORCHING_COWL,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_SCORCHING_BODY,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_SCORCHING_CHAPS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_SCORCHING_BRACERS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.INFUSED_SCORCHING_BOOTS,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
 ];
