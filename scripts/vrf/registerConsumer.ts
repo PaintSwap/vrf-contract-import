@@ -15,7 +15,9 @@ async function main() {
     ? "0xf31517db9f0987002f3a0fb4f787dfb9e892f184"
     : "0x2cfd3b9f8b595200d6b4b7f667b2a1bcc6d0c170";
 
-  const instantVRFActions = isBeta ? "0x528b2f0cc280f6699d0831bcaee2f6ae611eb794" : "TODO";
+  const instantVRFActions = isBeta
+    ? "0xe297508ff83ba7a984ec8778ea67d82e049eda58"
+    : "0xfe2c07fd7751bba25164adbd96e09b382403f4d7";
 
   const swvrf = await ethers.getContractAt("SamWitchVRF", SAMWITCH_VRF_ADDRESS);
   let tx = await swvrf.registerConsumer(lockedBankVault);
