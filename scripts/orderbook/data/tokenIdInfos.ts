@@ -1193,22 +1193,127 @@ export const allOrderBookTokenIdInfos: TokenIdInfo[] = [
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.SECRET_EGG_1,
+    tokenId: EstforConstants.EGG_TIER1,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.SECRET_EGG_2,
+    tokenId: EstforConstants.EGG_TIER2,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.SECRET_EGG_3,
+    tokenId: EstforConstants.EGG_TIER3,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.SECRET_EGG_4,
+    tokenId: EstforConstants.EGG_TIER4,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.EGG_TIER5,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_1_TIER1,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_1_TIER2,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_1_TIER3,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_1_TIER4,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_1_TIER5,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_2_TIER1,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_2_TIER2,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_2_TIER3,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_2_TIER4,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_2_TIER5,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_3_TIER1,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_3_TIER2,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_3_TIER3,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_3_TIER4,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_3_TIER5,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_4_TIER1,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_4_TIER2,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_4_TIER3,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_4_TIER4,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.SECRET_EGG_4_TIER5,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
