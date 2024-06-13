@@ -17,12 +17,12 @@ async function main() {
   const chunkSize = 100;
 
   const newTokenIds = new Set([
-    EstforConstants.RING_1,
-    EstforConstants.RING_2,
-    EstforConstants.RING_3,
-    EstforConstants.RING_4,
-    EstforConstants.RING_5,
-    EstforConstants.RING_6,
+    EstforConstants.PANGSTEN_RING,
+    EstforConstants.CANVITE_RING,
+    EstforConstants.ETCHED_RING,
+    EstforConstants.PRIMDIAT_RING,
+    EstforConstants.OCULITE_RING,
+    EstforConstants.NOVIAN_RING,
     EstforConstants.INFUSED_ORICHALCUM_HELMET_FRAGMENT,
     EstforConstants.INFUSED_ORICHALCUM_ARMOR_FRAGMENT,
     EstforConstants.INFUSED_ORICHALCUM_TASSETS_FRAGMENT,
