@@ -2278,32 +2278,32 @@ export const allOrderBookTokenIdInfos: TokenIdInfo[] = [
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.RING_1,
+    tokenId: EstforConstants.PANGSTEN_RING,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.RING_2,
+    tokenId: EstforConstants.CANVITE_RING,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.RING_3,
+    tokenId: EstforConstants.ETCHED_RING,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.RING_4,
+    tokenId: EstforConstants.PRIMDIAT_RING,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.RING_5,
+    tokenId: EstforConstants.OCULITE_RING,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
   {
-    tokenId: EstforConstants.RING_6,
+    tokenId: EstforConstants.NOVIAN_RING,
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
