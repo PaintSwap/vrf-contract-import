@@ -83,7 +83,7 @@ const config: HardhatUserConfig = {
     fantom: {
       url: process.env.FANTOM_RPC,
       accounts: [process.env.PRIVATE_KEY as string],
-      gasPrice: Number(ethers.parseUnits("150", "gwei")),
+      gasPrice: Number(ethers.parseUnits("20", "gwei")),
     },
     fantom_testnet: {
       url: process.env.FANTOM_TESTNET_RPC,
