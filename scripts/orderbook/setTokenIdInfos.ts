@@ -61,7 +61,6 @@ async function main() {
     EstforConstants.DRAGON_CHEST,
     EstforConstants.BONE_CHEST,
     EstforConstants.BRIMSTONE,
-    EstforConstants.COIN,
   ]);
 
   const orderBookTokenIdInfos = allOrderBookTokenIdInfos.filter((tokenIdInfo) => newTokenIds.has(tokenIdInfo.tokenId));
