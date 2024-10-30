@@ -2502,4 +2502,69 @@ export const allOrderBookTokenIdInfos: TokenIdInfo[] = [
     tick: ethers.parseEther("0.00001").toString(),
     minQuantity: "1",
   },
+  {
+    tokenId: EstforConstants.KRAGSTYR_EGG_TIER1,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.KRAGSTYR_EGG_TIER2,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.KRAGSTYR_EGG_TIER3,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.KRAGSTYR_EGG_TIER4,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.KRAGSTYR_EGG_TIER5,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.TRICK_CHEST2024,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.TREAT_CHEST2024,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.TRICK_OR_TREAT_KEY,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.RING_OF_TUR,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.KEPHRI_AMULET,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.LIFFYN,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.VANAGLOT,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
+  {
+    tokenId: EstforConstants.FANGENSTORM,
+    tick: ethers.parseEther("0.00001").toString(),
+    minQuantity: "1",
+  },
 ];

@@ -858,10 +858,10 @@
     proper-lockfile "^4.1.1"
     solidity-ast "^0.4.51"
 
-"@paintswap/estfor-definitions@^1.0.218":
-  version "1.0.218"
-  resolved "https://registry.yarnpkg.com/@paintswap/estfor-definitions/-/estfor-definitions-1.0.218.tgz#2d80d8a89e5fe391764da45f62245461424f6277"
-  integrity sha512-y4Knb+Jv4z/JxZDfk7lMzxUg0nb/eHJvKuouMraGeuYqWTmvTwyUV8rWcqs3Mij77GDWILhRjIc4B95/p29lEg==
+"@paintswap/estfor-definitions@^1.0.235":
+  version "1.0.236"
+  resolved "https://registry.yarnpkg.com/@paintswap/estfor-definitions/-/estfor-definitions-1.0.236.tgz#bdbbb634d731b077f5cf2efb65d8ade585b42436"
+  integrity sha512-+2U20QnXv6wFllWiKk+nWML5BbkH86Q5BNC8SfgLBDHkekCXHSeFoQJWBhEDoBO6kyOKsiDQPmWdFB9d1RjkzQ==
   dependencies:
     assemblyscript "0.19.10"
 
@@ -891,10 +891,10 @@
   resolved "https://registry.yarnpkg.com/@prettier/sync/-/sync-0.3.0.tgz#91f2cfc23490a21586d1cf89c6f72157c000ca1e"
   integrity sha512-3dcmCyAxIcxy036h1I7MQU/uEEBq8oLwf1CE3xeze+MPlgkdlb/+w6rGR/1dhp6Hqi17fRS6nvwnOzkESxEkOw==
 
-"@samwitch/erc1155-orderbook@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@samwitch/erc1155-orderbook/-/erc1155-orderbook-0.0.3.tgz#6e5b5458cdd281c8cb4ceecab58d8d20390e74b9"
-  integrity sha512-oxxlwKrWFZ9uNyPIMLEaWI1Ed8QFZnSGd4vzH0a0ZP1Su/AO0kTlFBdx8Jx2plLgpKE7BZ57+IFSSh/hkrjI9A==
+"@samwitch/erc1155-orderbook@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@samwitch/erc1155-orderbook/-/erc1155-orderbook-1.1.3.tgz#a1b9df1a7c63cf55c12068622963e4c8f4cf46ee"
+  integrity sha512-x21oIeztD6/Inc4xlfyUmRMuj6bxdWDddiGsCcCZQfOFOJDsB9VOA44q5gr7ksO5ARDf587xSKCNluoxThNcOA==
 
 "@samwitch/vrf@^0.0.4":
   version "0.0.4"
