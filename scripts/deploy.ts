@@ -1,8 +1,8 @@
 import hre, {ethers, upgrades} from "hardhat";
-import {ORACLE_ADDRESS} from "../contractAddresses";
-import {networkConstants} from "../../constants/network_constants";
-import {SamWitchVRF} from "../../typechain-types";
-import {verifyContracts} from "../utils";
+import {ORACLE_ADDRESS} from "./contractAddresses";
+import {networkConstants} from "../constants/network_constants";
+import {SamWitchVRF} from "../typechain-types";
+import {verifyContracts} from "./utils";
 
 // Deploy everything
 async function main() {

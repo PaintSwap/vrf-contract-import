@@ -1,8 +1,8 @@
 import hre, {ethers, upgrades} from "hardhat";
-import {verifyContracts} from "../utils";
-import {SamWitchVRF} from "../../typechain-types";
-import {networkConstants} from "../../constants/network_constants";
-import {SAMWITCH_VRF_ADDRESS} from "../contractAddresses";
+import {verifyContracts} from "./utils";
+import {SamWitchVRF} from "../typechain-types";
+import {networkConstants} from "../constants/network_constants";
+import {SAMWITCH_VRF_ADDRESS} from "./contractAddresses";
 
 // Upgrade vrf
 async function main() {

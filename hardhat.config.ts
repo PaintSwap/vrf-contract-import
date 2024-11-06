@@ -8,10 +8,9 @@ import "hardhat-storage-layout";
 import "solidity-coverage";
 import {SolcUserConfig} from "hardhat/types";
 import "dotenv/config";
-import {ethers} from "ethers";
 
 const defaultConfig: SolcUserConfig = {
-  version: "0.8.24",
+  version: "0.8.28",
   settings: {
     evmVersion: "paris",
     optimizer: {
@@ -30,34 +29,9 @@ const defaultConfig: SolcUserConfig = {
   },
 };
 
-const mediumRunsConfig: SolcUserConfig = {
-  ...defaultConfig,
-  settings: {
-    ...defaultConfig.settings,
-    optimizer: {
-      ...defaultConfig.settings.optimizer,
-      runs: 4000,
-    },
-  },
-};
-
-const lowRunsConfig: SolcUserConfig = {
-  ...defaultConfig,
-  settings: {
-    ...defaultConfig.settings,
-    optimizer: {
-      ...defaultConfig.settings.optimizer,
-      runs: 1000,
-    },
-  },
-};
-
 const config: HardhatUserConfig = {
   solidity: {
-    compilers: [defaultConfig, lowRunsConfig],
-    overrides: {
-      "@samwitch/erc1155-orderbook/contracts/SamWitchOrderBook.sol": mediumRunsConfig,
-    },
+    compilers: [defaultConfig],
   },
   gasReporter: {
     enabled: process.env.GAS_REPORTER != "false",
@@ -77,20 +51,14 @@ const config: HardhatUserConfig = {
     hardhat: {
       gasPrice: 0,
       initialBaseFeePerGas: 0,
-      blockGasLimit: 30000000,
       allowUnlimitedContractSize: true,
     },
-    fantom: {
-      url: process.env.FANTOM_RPC,
-      accounts: [process.env.PRIVATE_KEY as string],
-      gasPrice: Number(ethers.parseUnits("20", "gwei")),
-    },
-    fantom_testnet: {
-      url: process.env.FANTOM_TESTNET_RPC,
+    sonic: {
+      url: process.env.SONIC_RPC,
       accounts: [process.env.PRIVATE_KEY as string],
     },
-    fantom_sonic_testnet: {
-      url: process.env.FANTOM_SONIC_TESTNET_RPC,
+    sonic_testnet: {
+      url: process.env.SONIC_TESTNET_RPC,
       accounts: [process.env.PRIVATE_KEY as string],
     },
   },

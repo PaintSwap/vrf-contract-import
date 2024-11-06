@@ -34,4 +34,3 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: yarn
       - run: yarn deploy:vrf
-      - run: yarn deploy:orderbook
