@@ -15,10 +15,10 @@ export const networkConstants = async (hre: HardhatRuntimeEnvironment): Promise<
   switch (network.chainId) {
     case 31337n: // hardhat
       break;
-    case 64165n: // Sonic testnet
+    case 57054n: // Sonic testnet
       numBlocksWait = 1;
       break;
-    case 250n: // Sonic (TODO)
+    case 146n: // Sonic
       numBlocksWait = 1;
       shouldVerify = true;
       break;
