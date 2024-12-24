@@ -57,13 +57,26 @@ const config: HardhatUserConfig = {
       url: process.env.SONIC_RPC,
       accounts: [process.env.PRIVATE_KEY as string],
     },
-    sonic_testnet: {
-      url: process.env.SONIC_TESTNET_RPC,
+    "sonic-blaze": {
+      url: process.env.SONIC_BLAZE_RPC,
       accounts: [process.env.PRIVATE_KEY as string],
     },
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY,
+    apiKey: {
+      fantom: process.env.ETHERSCAN_API_KEY as string,
+      sonic: process.env.SONICSCAN_API_KEY as string,
+    },
+    customChains: [
+      {
+        network: "sonic",
+        chainId: 146,
+        urls: {
+          apiURL: "https://api.sonicscan.org/api",
+          browserURL: "https://sonicscan.org",
+        },
+      },
+    ],
   },
   abiExporter: {
     path: "./data/abi",
